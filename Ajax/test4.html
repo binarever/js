@@ -1,0 +1,43 @@
+<html>
+	<head>
+	<script type="text/javascript" src="hacks_2_4.js"></script>
+	<title>Alter select lists</title>
+	</head>
+	<body>
+	<h3>Create or Alter a Select List</h3>
+	<form action="javascript:void%200">
+	<table border="0">
+		<tr><td>Choose one or more states: </td>
+		<td>
+		<select name="_state" multiple="multiple" size="4">
+		<option value="al">Alabama</option>
+		<option value="ak">Alaska</option>
+		<option value="az">Arizona</option>
+		<option value="ar">Arkansas</option>
+		<option value="ca">Canifornia</option>
+		<option value="co">Colorado</option>
+		<option value="ct">Connecticut</option>
+		<option value="de">Delaware</option>
+		<option value="dc">District of Columbia</option>
+		<option value="fl">Florida</option>
+		<option value="ga">Georgia</option>
+		<option value="hi">Hawaii</option>
+		<!--snipped-->
+		</select>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<span id="select_info" class="message">The server reports that you have chosen the following abbreviated states:</span>
+		<tr><td>Choose yourr list content:</td>
+		<td>European countries:
+		<input type="radio" name="countryType" id="euro" value="euro" />
+		South American countries:
+		<input type="radio" name="countryType" id="southam" value="southam" />
+		</td>
+		</tr>
+		<tr><td><div id="newsel"></td></tr>
+	</table>
+	</form>
+	</body>
+</html>
